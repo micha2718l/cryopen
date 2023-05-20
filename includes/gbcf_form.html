@@ -1,0 +1,26 @@
+
+<!-- BEGIN: UNIVERSAL FORM BODY, THIS IS WHAT'S "INCLUDED" -->
+
+Warning: include_once(Mail.php): Failed to open stream: No such file or directory in /Users/mjhaas/cryo/site_php/includes/gbcf_form.php on line 8
+
+Warning: include_once(): Failed opening 'Mail.php' for inclusion (include_path='.:/usr/local/Cellar/php/8.1.0/share/php/pear') in /Users/mjhaas/cryo/site_php/includes/gbcf_form.php on line 8
+
+Warning: Undefined array key "reason" in /Users/mjhaas/cryo/site_php/includes/gbcf_config.php on line 12
+ 
+Warning: Undefined variable $gb_possession in /Users/mjhaas/cryo/site_php/includes/gbcf_form.php on line 15
+
+Deprecated: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/mjhaas/cryo/site_php/includes/gbcf_form.php on line 15
+<div id="gb_form_div">
+   <form id="gb_form" method="post" action="./includes/gbcf_form.php#results">
+<!-- Required Info -->
+      <fieldset>
+		<ol>
+			<li>
+            	<label for="reason">Subject <em>*</em></label>
+         		<select style="cursor:pointer;" name="reason" id="reason">
+          			<option value="">Please make a selection</option> 
+					
+Fatal error: Uncaught Error: Call to undefined function each() in /Users/mjhaas/cryo/site_php/includes/gbcf_form.php:207
+Stack trace:
+#0 {main}
+  thrown in /Users/mjhaas/cryo/site_php/includes/gbcf_form.php on line 207

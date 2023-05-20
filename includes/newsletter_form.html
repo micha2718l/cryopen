@@ -1,0 +1,49 @@
+
+<!-- BEGIN: UNIVERSAL FORM BODY, THIS IS WHAT'S "INCLUDED" -->
+
+Warning: include_once(Mail.php): Failed to open stream: No such file or directory in /Users/mjhaas/cryo/site_php/includes/newsletter_form.php on line 8
+
+Warning: include_once(): Failed opening 'Mail.php' for inclusion (include_path='.:/usr/local/Cellar/php/8.1.0/share/php/pear') in /Users/mjhaas/cryo/site_php/includes/newsletter_form.php on line 8
+ 
+Warning: Undefined variable $gb_possession in /Users/mjhaas/cryo/site_php/includes/newsletter_form.php on line 15
+
+Deprecated: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/mjhaas/cryo/site_php/includes/newsletter_form.php on line 15
+<div id="gb_form_div">
+   <form id="gb_form" method="post" action="./includes/newsletter_form.php#results">
+<!-- Required Info -->
+      <fieldset>
+		<ol>
+        	<li>
+                <label for="name">Name <em>*</em></label>
+                <input type="text" name="name" id="name" size="35" maxlength="40" value="" />
+			</li>
+            <li>
+                <label for="company">Company</label>
+                <input type="text" name="company" id="company" size="35" maxlength="40" value="" />
+        	</li>
+            <li>
+                <label for="email">Email Address <em>*</em></label>
+                <input type="text" name="email" id="email" size="35" maxlength="50" value="" />
+        	</li>       
+            <li>
+                <label for="spamq" >What color is the sky? <em>*</em></label>
+                <input type="text" name="spamq" id="spamq" size="35" maxlength="30" value="this confirms you're a human user" onfocus="this.value='';" /> 
+            </li>
+         </ol>
+
+<!-- Special anti-spam input: non-displayed type -->
+       <div style="position:absolute; top: -9000px; left:-9000px;">
+Warning: Undefined variable $x_or_h_br in /Users/mjhaas/cryo/site_php/includes/newsletter_form.php on line 190
+ 
+        <label for="p-mail"><small><strong>Note:</strong> The input below should <em>not</em> be filled in. It is a spam trap. Please ignore it. If you populate this input, the form will return an error.</small><br /> 
+        <input type="text" name="p-mail" id="p-mail" alt="Cherim-Hartmann Anti-Spam Trap Two" value="" />
+        </label>
+       </div>
+</fieldset>
+
+<!-- Form Buttons -->
+	<input style="margin:0 0 0 190px;" type="submit" alt="Click Button to Submit Form" value="Submit Form" name="Submit Form" id="Submit Form" title="Click Button to Submit Form" />
+      
+  </form>
+</div>
+<!-- END: UNIVERSAL FORM BODY, THIS IS WHAT'S "INCLUDED" -->

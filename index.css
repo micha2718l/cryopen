@@ -1,0 +1,23 @@
+.img-logo {
+    width: ;
+    max-height: 10%;
+}
+.txt-body {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.txt-effective {
+    padding-top: 15px;
+    font-size: 1.25em;
+}
+.txt-call {
+    font-size: 1em;
+}
+.txt-thanks {
+    font-size: 0.75em;
+}
+.modal-backdrop
+{
+    opacity:0.75 !important;
+}
